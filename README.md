@@ -33,33 +33,18 @@ This project uses sensor data and control algorithms to maintain balance on two 
 
 ## System Architecture
 
-graph TD
-    A[Raspberry Pi] --> |1. High-Level Decisions| B(Arduino Microcontroller);
-    subgraph Sensor Input
-        C[MPU6050 IMU] --> A;
-        D[Camera Feed] --> A;
-    end
+MPU6050 Sensors
+↓
+Arduino Control System
+↓
+Motor Drivers
+↓
+Stepper Motors
 
-    A -- Processes: --> CV(Computer Vision) & VA(Voice Assistant);
-    B -- Controls Signals to --> E{Motor Drivers};
-    E --> F[Stepper Motors];
-
-    style A fill:#f9f,stroke:#333
-    style B fill:#ccf,stroke:#333
+Raspberry Pi
+├── Computer Vision
+├── Voice Assistant
+└── High-Level Decision Making
 
 
-## Key Concepts
-
-* Inverted Pendulum Model
-* Feedback Control Systems
-* Sensor Fusion
-* Computer Vision
-* Human-Robot Interaction
-
-## Future Improvements
-
-* Autonomous navigation
-* SLAM integration
-* Improved obstacle avoidance
-* Remote monitoring interface
 
