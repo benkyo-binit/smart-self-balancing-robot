@@ -31,20 +31,6 @@ This project uses sensor data and control algorithms to maintain balance on two 
 * OpenCV
 * Gemini API
 
-## System Architecture
+## System Flow
 
-MPU6050 Sensors
-↓
-Arduino Control System
-↓
-Motor Drivers
-↓
-Stepper Motors
-
-Raspberry Pi
-├── Computer Vision
-├── Voice Assistant
-└── High-Level Decision Making
-
-
-
+MPU6050 Sensors -> Arduino Control System -> Motor Drivers -> Stepper Motors
