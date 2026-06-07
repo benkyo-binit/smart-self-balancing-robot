@@ -37,5 +37,5 @@ This project uses sensor data and control algorithms to maintain balance on two 
 
 MPU6050 Sensors -> Arduino Control System -> Motor Drivers -> Stepper Motors
 
-[▶ Balancing Demo](https://youtube.com/shorts/tE44lUxIx_E)
+[▶ Balancing Demo](https://youtu.be/hu3rPHz1I8g)
 [▶ Assistant Demo](https://youtube.com/shorts/kOs3wUx_cmk?feature=share)
