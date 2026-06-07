@@ -6,6 +6,8 @@ A self-balancing robot based on the inverted pendulum model, combining real-time
 
 This project uses sensor data and control algorithms to maintain balance on two wheels. A Raspberry Pi handles computer vision and intelligent features, while an Arduino manages real-time control of the balancing system.
 
+<img src="screenshots/1739718504183.jpg" alt="image" width="300" height="auto">
+
 ## Features
 
 * Self-balancing using sensor feedback
@@ -34,3 +36,6 @@ This project uses sensor data and control algorithms to maintain balance on two 
 ## System Flow
 
 MPU6050 Sensors -> Arduino Control System -> Motor Drivers -> Stepper Motors
+
+[▶ Balancing Demo](https://youtube.com/shorts/tE44lUxIx_E)
+[▶ Assistant Demo](https://youtube.com/shorts/kOs3wUx_cmk?feature=share)
